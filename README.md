@@ -23,6 +23,14 @@ Para configurar el proyecto, sigue estos pasos:
     ```bash
     mvn compile
     ```
+
+3. **Empaqueta el proyecto:**
+
+    ```bash
+    mvn package
+    ```
+
+    
 ## Estilo de Código
 
 Este proyecto sigue la guía de estilo de Google para Java. Asegúrate de que tu código cumpla con las siguientes normas:
