@@ -19,6 +19,7 @@ public class Caminante extends EnteVivoDecorador {
                 return "El ser vivo se mueve con " + patas + " patas.";
             }
         } else {
+            setEnte(new Carroña(getEnte()));
             return "El ser vivo no puede caminar porque no tiene patas. Ahora es carroña.";
         }
     }
