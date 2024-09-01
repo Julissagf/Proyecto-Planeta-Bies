@@ -10,6 +10,10 @@ public abstract EnteVivoDecorador extends EnteVivo {
   protected EnteVivo getEnte () {
     return ente;
   }
+
+  protected void setEnte(EnteVivo nuevoEnte) {
+    this.ente = nuevoEnte;
+  }
   
   public String movilizarse();
 }
