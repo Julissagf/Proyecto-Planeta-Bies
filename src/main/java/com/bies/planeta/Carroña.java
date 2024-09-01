@@ -16,8 +16,12 @@ public class Carroña extends EnteVivoDecorador {
   }
 
   @Override
-  public String comer();
+  public String comer() {
+    return "Ya no puede comer el ente porque es carroña";
+  }
 
   @Override
-  public String toString();
+  public String toString() {
+    return "El ente es carroña";
+  }
 }
