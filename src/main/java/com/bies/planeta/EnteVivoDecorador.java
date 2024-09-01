@@ -1,19 +1,19 @@
 package com.bies.planeta;
 
-public abstract EnteVivoDecorador extends EnteVivo {
+public abstract class EnteVivoDecorador extends EnteVivo {
   private EnteVivo ente;
 
-  public EnteVivoDecorador (EnteVivo e) {
-    ente = e;
+  public EnteVivoDecorador(EnteVivo e) {
+      this.ente = e;
   }
 
-  protected EnteVivo getEnte () {
-    return ente;
+  protected EnteVivo getEnte() {
+      return ente;
   }
 
   protected void setEnte(EnteVivo nuevoEnte) {
-    this.ente = nuevoEnte;
+      this.ente = nuevoEnte;
   }
-  
-  public String movilizarse();
+
+  public abstract String movilizarse();
 }
