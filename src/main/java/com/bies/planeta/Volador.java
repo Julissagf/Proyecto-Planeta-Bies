@@ -1,5 +1,7 @@
 package com.bies.planeta;
 
+import java.util.Random;
+
 public class Volador extends EnteVivoDecorador {
     private int alas;
     private static final Random random = new Random();
