@@ -19,6 +19,7 @@ public class Volador extends EnteVivoDecorador {
                 return "El ser vivo vuela con " + alas + " alas.";
             }
         } else {
+            setEnte(new Carroña(getEnte()));
             return "El ser vivo no puede volar porque no tiene alas. Ahora es carroña.";
         }
     }
