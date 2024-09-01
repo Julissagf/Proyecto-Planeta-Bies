@@ -2,12 +2,12 @@ package com.bies.planeta;
 
 import java.util.Random;
 
-public class CaminardorYVolardor extends EnteVivoDecorador {
+public class CaminanteYVolardor extends EnteVivoDecorador {
     private int patas;
     private int alas;
     private static final Random random = new Random();
 
-    public CaminarYVolar(EnteVivo ente, int patasIniciales, int alasIniciales) {
+    public CaminanteYVolardor(EnteVivo ente, int patasIniciales, int alasIniciales) {
         super(ente);
         this.patas = patasIniciales;
         this.alas = alasIniciales;
