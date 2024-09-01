@@ -11,7 +11,9 @@ public class Carroña extends EnteVivoDecorador {
   }
 
   @Override
-  public void setAlimentarse(Alimentarse a);
+  public void setAlimentarse(Alimentarse a) {
+    getEnte().setAlimentarse(a);
+  }
 
   @Override
   public String comer();
