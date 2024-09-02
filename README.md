@@ -40,7 +40,5 @@ Este proyecto sigue la guía de estilo de Google para Java. Asegúrate de que tu
 
 Para verificar el estilo del código, ejecuta:
 
-PRUEBA
-
 ```bash
 mvn checkstyle:check
