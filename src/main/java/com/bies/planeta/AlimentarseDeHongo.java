@@ -22,7 +22,7 @@ public class AlimentarseDeHongo implements Alimentarse {
     /**
      * Método que define cómo se alimenta un ente de hongos.
      *
-     * @return Una cadena que describe la acción de alimentarse de hongos.
+     * Returns Una cadena que describe la acción de alimentarse de hongos.
      */
     public String alimentarse(){
         return "Me alimento de hongos";
