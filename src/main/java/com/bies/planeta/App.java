@@ -1,5 +1,6 @@
 package com.bies.planeta;
 
+import com.bies.planeta.entes.Mosca;
 
 public class App 
 {

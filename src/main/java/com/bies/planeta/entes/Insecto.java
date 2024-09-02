@@ -1,4 +1,4 @@
-package com.bies.planeta;
+package com.bies.planeta.entes;
 
 /**
  * Representa un insecto dentro del ecosistema de un planeta.

@@ -1,5 +1,7 @@
-package com.bies.planeta;
+package com.bies.planeta.entes;
 import java.util.ArrayList;
+
+import com.bies.planeta.alimentacion.Alimentarse;
 
 /**
  * Representa un ente vivo en el sistema.

@@ -1,4 +1,6 @@
-package com.bies.planeta;
+package com.bies.planeta.entes;
+
+import com.bies.planeta.alimentacion.Alimentarse;
 
 /**
  * Representa un ente vivo que es innombrable.

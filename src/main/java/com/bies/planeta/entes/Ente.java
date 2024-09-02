@@ -1,4 +1,6 @@
-package com.bies.planeta;
+package com.bies.planeta.entes;
+
+import com.bies.planeta.alimentacion.Alimentarse;
 
 /**
  * Clase abstracta que representa un ente, el cual puede ser vivo o no vivo.

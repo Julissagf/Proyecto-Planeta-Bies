@@ -1,4 +1,7 @@
-package com.bies.planeta;
+package com.bies.planeta.entes;
+
+import com.bies.planeta.alimentacion.Alimentarse;
+import com.bies.planeta.alimentacion.AlimentarseDeCarrona;
 
 /**
  * Representa una araña en el sistema. La mosca es un tipo de insecto que se alimenta

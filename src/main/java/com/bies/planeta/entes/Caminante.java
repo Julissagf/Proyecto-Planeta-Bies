@@ -1,6 +1,8 @@
-package com.bies.planeta;
+package com.bies.planeta.entes;
 
 import java.util.Random;
+
+import com.bies.planeta.alimentacion.Alimentarse;
 
 /**
  * Decorador que permite a un ente vivo adquirir la habilidad de caminar.

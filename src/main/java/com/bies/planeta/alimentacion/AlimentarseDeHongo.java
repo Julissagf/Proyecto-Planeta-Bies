@@ -1,4 +1,4 @@
-package com.bies.planeta;
+package com.bies.planeta.alimentacion;
 
 /**
  * Esta clase define la estrategia de alimentación de Hongos.

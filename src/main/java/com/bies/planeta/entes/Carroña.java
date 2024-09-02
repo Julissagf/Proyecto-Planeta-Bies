@@ -1,4 +1,4 @@
-package com.bies.planeta;
+package com.bies.planeta.entes;
 
 /**
  * Representa un ente que ha perdido su vitalidad y se ha convertido en carroña.

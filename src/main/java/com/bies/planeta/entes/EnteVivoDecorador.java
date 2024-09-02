@@ -1,4 +1,4 @@
-package com.bies.planeta;
+package com.bies.planeta.entes;
 
 /**
  * Decorador abstracto para los entes vivos, que permite añadirles nuevas capacidades.

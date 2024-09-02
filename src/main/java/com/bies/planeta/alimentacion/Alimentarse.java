@@ -1,4 +1,4 @@
-package com.bies.planeta;
+package com.bies.planeta.alimentacion;
 
 /**
  * Interfaz que define el comportamiento de alimentación para los entes.
