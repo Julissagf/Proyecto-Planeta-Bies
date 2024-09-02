@@ -30,7 +30,7 @@ public class Innombrable extends EnteVivo{
     /**
      * Describe cómo el innombrable se alimenta.
      *
-     * @return Una cadena que describe la acción de comer del innombrable.
+     * Returns Una cadena que describe la acción de comer del innombrable.
      */
     @Override
     public String comer(){
@@ -40,7 +40,7 @@ public class Innombrable extends EnteVivo{
     /**
      * Retorna una descripción del innombrable.
      *
-     * @return Una cadena que describe al innombrable.
+     * Returns Una cadena que describe al innombrable.
      */
     @Override
     public String toString(){
