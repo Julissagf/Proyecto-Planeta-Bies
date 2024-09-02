@@ -37,7 +37,7 @@ public class Volador extends EnteVivoDecorador {
      * Método que permite al ente movilizarse volando. Si pierde todas sus alas,
      * se convierte en carroña.
      *
-     * @return Una cadena que describe el estado actual del ente al volar.
+     * Returns Una cadena que describe el estado actual del ente al volar.
      */
     public String movilizarse() {
         if (alas > 2) {
@@ -66,7 +66,7 @@ public class Volador extends EnteVivoDecorador {
     /**
      * Describe cómo el ente volador se alimenta.
      *
-     * @return Una cadena que describe la acción de comer del ente.
+     * Returns Una cadena que describe la acción de comer del ente.
      */
     @Override
     public String comer() {
@@ -76,7 +76,7 @@ public class Volador extends EnteVivoDecorador {
     /**
      * Retorna una descripción del ente volador, incluyendo el número de alas.
      *
-     * @return Una cadena que describe al ente volador.
+     * Returns Una cadena que describe al ente volador.
      */
     @Override
     public String toString() {
