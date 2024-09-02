@@ -25,11 +25,21 @@ public class Mosca extends Insecto {
         alimentarse = new AlimentarseDeCarrona();
     }
 
+    /**
+     * Establece la estrategia de alimentación para el ente vivo.
+     *
+     * @param a Estrategia de alimentación a ser establecida.
+     */
     @Override
     public void setAlimentarse(Alimentarse a){
         alimentarse = a;
     }
 
+    /**
+     * Describe cómo el ente vivo se alimenta.
+     *
+     * Returns Una cadena que describe la acción de comer del ente.
+     */
     @Override
     public String comer(){
         return alimentarse.alimentarse();

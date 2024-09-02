@@ -32,7 +32,6 @@ public abstract class EnteNoVivo extends Ente {
      * Returns Una cadena que indica que el ente no puede comer.
      */
     @Override
-    @Override
     public String comer(){ return "No puedo comer, porque soy un ente no vivo"; }
 
    /**
