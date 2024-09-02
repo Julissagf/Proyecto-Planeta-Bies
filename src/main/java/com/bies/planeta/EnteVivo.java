@@ -32,7 +32,7 @@ public abstract class EnteVivo extends Ente{
     /**
      * Describe cómo el ente vivo se alimenta.
      *
-     * @return Una cadena que describe la acción de comer del ente.
+     * Returns Una cadena que describe la acción de comer del ente.
      */
     @Override
     public abstract String comer();
@@ -40,7 +40,7 @@ public abstract class EnteVivo extends Ente{
     /**
      * Retorna una descripción del ente vivo.
      *
-     * @return Una cadena que describe al ente vivo.
+     * Returns Una cadena que describe al ente vivo.
      */
     @Override
     public abstract String toString();
@@ -55,7 +55,7 @@ public abstract class EnteVivo extends Ente{
     /**
      * Permite que el ente vivo se movilice según sus decoradores.
      *
-     * @return Una cadena que describe cómo el ente vivo se moviliza.
+     * Returns Una cadena que describe cómo el ente vivo se moviliza.
      */
     public String movilizarse() {
         String retStr = "";
