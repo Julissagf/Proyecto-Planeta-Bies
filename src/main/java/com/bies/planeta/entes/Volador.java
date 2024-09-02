@@ -28,7 +28,7 @@ public class Volador extends EnteVivoDecorador {
      * Constructor que inicializa un ente caminante con un número específico de alas.
      *
      * @param ente El ente vivo que se decorará con la habilidad de volar.
-     * @param patasIniciales El número inicial de alas del ente.
+     * @param alasIniciales El número inicial de alas del ente.
      */
     public Volador(EnteVivo ente, int alasIniciales) {
         super(ente);
