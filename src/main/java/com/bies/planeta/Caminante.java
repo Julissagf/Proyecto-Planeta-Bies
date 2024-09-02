@@ -38,7 +38,7 @@ public class Caminante extends EnteVivoDecorador {
      * Método que permite al ente movilizarse caminando. Si pierde todas sus patas,
      * se convierte en carroña.
      *
-     * @return Una cadena que describe el estado actual del ente al caminar.
+     * Returns Una cadena que describe el estado actual del ente al caminar.
      */
     public String movilizarse() {
         if (patas > 2) {
@@ -67,7 +67,7 @@ public class Caminante extends EnteVivoDecorador {
     /**
      * Describe cómo el ente caminante se alimenta.
      *
-     * @return Una cadena que describe la acción de comer del ente.
+     * Returns Una cadena que describe la acción de comer del ente.
      */
     @Override
     public String comer() {
@@ -77,7 +77,7 @@ public class Caminante extends EnteVivoDecorador {
     /**
      * Retorna una descripción del ente caminante, incluyendo el número de patas.
      *
-     * @return Una cadena que describe al ente caminante.
+     * Returns Una cadena que describe al ente caminante.
      */
     @Override
     public String toString() {
