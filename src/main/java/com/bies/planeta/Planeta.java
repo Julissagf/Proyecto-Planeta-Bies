@@ -29,7 +29,7 @@ public class Planeta {
   /**
      * Obtiene el nombre del planeta.
      * 
-     * @return el nombre del planeta.
+     * Returns el nombre del planeta.
      */
     public String getNombre() {
         return nombre;
