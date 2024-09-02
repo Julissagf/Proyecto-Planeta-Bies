@@ -14,6 +14,4 @@ public abstract class EnteVivoDecorador extends EnteVivo {
   protected void setEnte(EnteVivo nuevoEnte) {
       this.ente = nuevoEnte;
   }
-
-  public abstract String movilizarse();
 }

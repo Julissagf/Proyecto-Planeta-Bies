@@ -10,4 +10,11 @@ public abstract class EnteVivo {
     public abstract String toString();
 
     public void addDecorator(EnteVivoDecorador e) { decorators.add(e); }
+    public String movilizarse() {
+        String retStr = "";
+        for (EnteVivoDecorador e : decorators) {
+            retStr += e.movilizarse();
+        }
+        return retStr;
+    }
 }

@@ -21,5 +21,4 @@ public class Mosca extends Insecto {
     public String toString(){
         return super.toString() + " una Mosca.";
     }
-
 }
