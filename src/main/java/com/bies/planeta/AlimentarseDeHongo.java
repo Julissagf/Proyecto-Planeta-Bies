@@ -1,8 +1,7 @@
 package com.bies.planeta;
 
-public class AlimentarseDeHongo extends Alimentarse {
+public class AlimentarseDeHongo implements Alimentarse {
 
-    @Override
     public String alimentarse(){
         return "Me alimento de hongos";
     }
