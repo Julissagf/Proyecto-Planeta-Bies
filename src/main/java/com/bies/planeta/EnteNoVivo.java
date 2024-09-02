@@ -21,7 +21,7 @@ public abstract class EnteNoVivo extends Ente {
    /**
      * Retorna una descripción del ente no vivo.
      *
-     * @return Una cadena que describe al ente no vivo.
+     * Returns Una cadena que describe al ente no vivo.
      */
     @Override
     public abstract String toString();
@@ -29,7 +29,7 @@ public abstract class EnteNoVivo extends Ente {
    /**
      * Describe que el ente no vivo no puede comer.
      *
-     * @return Una cadena que indica que el ente no puede comer.
+     * Returns Una cadena que indica que el ente no puede comer.
      */
     @Override
     @Override
