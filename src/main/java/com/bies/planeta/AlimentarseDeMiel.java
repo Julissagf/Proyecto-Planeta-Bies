@@ -10,6 +10,7 @@ package com.bies.planeta;
  * - Julissa Gómez Fuentes (1-1890-0658)
  * - Julián David Ramírez Salas (1-1874-0667)
  * - Juan Pablo Segura Astúa (1-1875-0806)
+ * <p>Fecha: 2024-09-01
  *
  * @since 1.0
  * @version 1.0
