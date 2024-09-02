@@ -31,7 +31,7 @@ public abstract class EnteVivoDecorador extends EnteVivo {
     /**
      * Obtiene el ente decorado.
      *
-     * @return El ente decorado.
+     * Returns El ente decorado.
      */
     protected Ente getEnte() {
         return ente;
