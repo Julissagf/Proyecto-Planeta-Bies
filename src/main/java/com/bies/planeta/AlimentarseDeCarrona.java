@@ -22,7 +22,7 @@ public class AlimentarseDeCarrona implements Alimentarse {
      /**
      * Método que define cómo se alimenta un ente de carroña.
      *
-     * @return Una cadena que describe la acción de alimentarse de carroña.
+     * Returns Una cadena que describe la acción de alimentarse de carroña.
      */
     public String alimentarse(){
         return "Me alimento de Carroña";
