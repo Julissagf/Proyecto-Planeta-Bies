@@ -19,7 +19,7 @@ public abstract class Insecto extends EnteVivo{
     /**
      * Devuelve una representación en cadena de un insecto.
      * 
-     * @return una cadena que describe al insecto.
+     * Returns una cadena que describe al insecto.
      */
     public String toString(){
         return "Soy un insecto, ";
