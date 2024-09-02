@@ -23,7 +23,7 @@ public interface Alimentarse {
     /**
      * Método que define cómo un ente se alimenta.
      *
-     * @return Una cadena que describe la acción de alimentarse.
+     * Returns Una cadena que describe la acción de alimentarse.
      */
     String alimentarse();
     
