@@ -11,7 +11,7 @@ public class Caminante extends EnteVivoDecorador {
         this.patas = patasIniciales;
     }
 
-    @Override
+    
     public String movilizarse() {
         if (patas > 2) {
             if (random.nextDouble() < 1.0 / patas) {
@@ -21,7 +21,7 @@ public class Caminante extends EnteVivoDecorador {
                 return "El ser vivo se mueve con " + patas + " patas.";
             }
         } else {
-            setEnte(new Carroña(getEnte()));
+            degradacionMotora();
             return "El ser vivo no puede caminar porque no tiene patas. Ahora es carroña.";
         }
     }
@@ -40,4 +40,6 @@ public class Caminante extends EnteVivoDecorador {
     public String toString() {
         return getEnte().toString() + " (Caminante con " + patas + " patas)";
     }
+
+
 }

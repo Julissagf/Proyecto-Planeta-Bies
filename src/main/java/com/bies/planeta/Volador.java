@@ -11,7 +11,7 @@ public class Volador extends EnteVivoDecorador {
         this.alas = alasIniciales;
     }
 
-    @Override
+
     public String movilizarse() {
         if (alas > 2) {
             if (random.nextDouble() < 1.0 / alas) {
@@ -21,7 +21,7 @@ public class Volador extends EnteVivoDecorador {
                 return "El ser vivo vuela con " + alas + " alas.";
             }
         } else {
-            setEnte(new Carroña(getEnte()));
+            degradacionMotora();
             return "El ser vivo no puede volar porque no tiene alas. Ahora es carroña.";
         }
     }

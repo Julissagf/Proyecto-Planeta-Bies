@@ -1,24 +1,16 @@
 package com.bies.planeta;
 
-public class Carroña extends EnteVivoDecorador {
-  public Carroña (EnteVivo ente) {
-    super(ente);
+public class Carroña extends EnteNoVivo {
+
+
+  public Carroña () {
+    super();
   }
-  
-  @Override
+
+
   public String movilizarse() {
-     return "Ya no puedo movilizarme porque soy carroña";
-  }
-
-  @Override
-  public void setAlimentarse(Alimentarse a) {
-    getEnte().setAlimentarse(a);
-  }
-
-  @Override
-  public String comer() {
-    return "Ya no puede comer el ente porque es carroña";
-  }
+      return "Ya no puede movilizarse porque es carroña";
+   }
 
   @Override
   public String toString() {
