@@ -27,7 +27,7 @@ public class Carroña extends EnteNoVivo {
   /**
      * Método que describe el hecho de que el ente ya no puede movilizarse.
      *
-     * @return Una cadena que indica que el ente no puede movilizarse porque es carroña.
+     * Returns Una cadena que indica que el ente no puede movilizarse porque es carroña.
      */
   public String movilizarse() {
       return "Ya no puede movilizarse porque es carroña";
@@ -36,7 +36,7 @@ public class Carroña extends EnteNoVivo {
   /**
      * Retorna una descripción del ente, indicando que es carroña.
      *
-     * @return Una cadena que describe al ente como carroña.
+     * Returns Una cadena que describe al ente como carroña.
      */
   @Override
   public String toString() {
