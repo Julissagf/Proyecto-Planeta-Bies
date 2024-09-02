@@ -3,7 +3,7 @@
 ## Requisitos
 Antes de ejecutar el proyecto, asegúrate de tener instalados los siguientes requisitos:
 
-- **Java JDK 11**: Puedes descargarlo desde [Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) o usar un gestor de paquetes.
+- **Java JDK >= 17**: Puedes descargarlo desde [Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) o usar un gestor de paquetes.
 - **Apache Maven 3.9.9**: Puedes descargarlo desde [Apache Maven](https://maven.apache.org/download.cgi).
 
 
