@@ -21,14 +21,14 @@ public abstract class Ente {
     /**
      * Método abstracto que retorna una descripción del ente.
      *
-     * @return Una cadena que describe el ente.
+     * Returns Una cadena que describe el ente.
      */
     public abstract String toString();
 
     /**
      * Método abstracto que define cómo el ente se alimenta.
      *
-     * @return Una cadena que describe la acción de comer.
+     * Returns Una cadena que describe la acción de comer.
      */
     public abstract String comer();
 
