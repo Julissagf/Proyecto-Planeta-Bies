@@ -21,7 +21,7 @@ public class AlimentarseDeMiel implements Alimentarse {
     /**
      * Método que define cómo se alimenta un ente de miel.
      *
-     * @return Una cadena que describe la acción de alimentarse de miel.
+     * Returns Una cadena que describe la acción de alimentarse de miel.
      */
     public String alimentarse(){
         return "Me alimento de Miel";
