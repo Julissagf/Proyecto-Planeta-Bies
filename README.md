@@ -29,6 +29,11 @@ Para configurar el proyecto, sigue estos pasos:
     ```bash
     mvn package
     ```
+4. **Crear el javadoc*
+
+    ```bash
+    mvn javadoc:javadoc
+    ```
 
     
 ## Estilo de Código
